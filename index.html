@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="left-nav">
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Про нас</a></li>
+            </ul>
+            <h1 class="title">Mamma Mia</h1>
+            <ul class="right-nav">
+                <li><button class="home-button">Головна</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="white-block"></div> <!-- Білий блок -->
+    <main>
+        <section>
+            <h2>Закуски</h2>
+            <div class="menu">
+                <div class="menu-item" data-modal-content="bruschetta" data-price="120">
+                    <img src="images/bruschetta.jpg" alt="Брускетта з Помідорами">
+                    <h3>Брускетта з Помідорами</h3>
+                    <p>Традиційні тости з томатами, базиліком та оливковою олією.</p>
+                    <p class="price">150 г - 120 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="caprese" data-price="180">
+                    <img src="images/caprese.jpg" alt="Капрезе">
+                    <h3>Капрезе</h3>
+                    <p>Салат з свіжих помідорів, моцарели, базиліку та бальзамічного оцту.</p>
+                    <p class="price">200 г - 180 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="carpaccio-veal" data-price="250">
+                    <img src="images/carpaccio-veal.jpg" alt="Карпаччо з Телятини">
+                    <h3>Карпаччо з Телятини</h3>
+                    <p>Тонко нарізано сира телятина з руколою та лимонним соусом.</p>
+                    <p class="price">120 г - 250 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="carpaccio-beef" data-price="180">
+                    <img src="images/carpaccio-beef.jpg" alt="Карпаччо з Яловичини">
+                    <h3>Карпаччо з Яловичини</h3>
+                    <p>Тонко нарізано сира яловичина з руколою, пармезаном та лимонним соком.</p>
+                    <p class="price">200 г - 180 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="arancini" data-price="140">
+                    <img src="images/arancini.jpg" alt="Аранчіні">
+                    <h3>Аранчіні</h3>
+                    <p>Рисові кульки з начинкою з м'яса, сиру та горошку, обсмажені до золотистої скоринки.</p>
+                    <p class="price">200 г - 140 ₴</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Основні страви</h2>
+            <div class="menu">
+                <div class="menu-item" data-modal-content="florentine-steak" data-price="600">
+                    <img src="images/florentine-steak.jpg" alt="Флорентійський Стейк">
+                    <h3>Флорентійський Стейк</h3>
+                    <p>Великий шматок смаженого яловичого стейку з розмарином.</p>
+                    <p class="price">400 г - 600 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="carbonara" data-price="220">
+                    <img src="images/carbonara.jpg" alt="Спагеті Карбонара">
+                    <h3>Спагеті Карбонара</h3>
+                    <p>Спагеті з беконом, яйцем, пармезаном та чорним перцем.</p>
+                    <p class="price">300 г - 220 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="risotto" data-price="260">
+                    <img src="images/risotto.jpg" alt="Ризото з Грибами">
+                    <h3>Ризото з Грибами</h3>
+                    <p>Ризото з лісовими грибами та пармезаном.</p>
+                    <p class="price">300 г - 260 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="lasagna" data-price="280">
+                    <img src="images/lasagna.jpg" alt="Лазанья Болоньєзе">
+                    <h3>Лазанья Болоньєзе</h3>
+                    <p>Лазанья з м'ясним соусом Болоньєзе та бешамелем.</p>
+                    <p class="price">350 г - 280 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="ministrone" data-price="180">
+                    <img src="images/ministrone.jpg" alt="Мінестроне">
+                    <h3>Мінестроне</h3>
+                    <p>Традиційний італійський овочевий суп.</p>
+                    <p class="price">250 г - 180 ₴</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Піцца</h2>
+            <div class="menu">
+                <div class="menu-item" data-modal-content="margherita" data-price="160">
+                    <img src="images/margherita.jpg" alt="Маргарита">
+                    <h3>Маргарита</h3>
+                    <p>Класична піца з томатним соусом, моцарелою та базиліком.</p>
+                    <p class="price">200 г - 160 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="quattro-stagioni" data-price="220">
+                    <img src="images/quattro-stagioni.jpg" alt="Чотири Сезони">
+                    <h3>Чотири Сезони</h3>
+                    <p>Піца з різними начинками для кожної пори року.</п>
+                    <p class="price">250 г - 220 ₴</p>
+                </div>
+                <div class="menu-item" data-modal-content="vegetarian" data-price="200">
+                    <img src="images/vegeterian.jpg" alt="Вегетаріанська">
+                    <h3>Вегетаріанська</h3>
+                    <p>Піца з овочами, базиліком та оливковою олією.</п>
+                    <p class="price">230 г - 200 ₴</п>
+                </div>
+            </div>
+        </section>
+        <section>
